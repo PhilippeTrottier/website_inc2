@@ -130,8 +130,9 @@ a:visited {
 }
 
 pre {
-  font-size: .8rem;
+  font-size: .6rem;
   background-color: #FFFAFA;
   border: solid 1px #CCCACA;
-  padding: .5rem;
+  padding: .2rem;
+  overflow: scroll;
 }
