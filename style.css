@@ -48,12 +48,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-
 h1, h2, h3 {
   font-size: 1rem;
   font-weight: bolder;
-  margin-top: 1.5rem;
-  margin-bottom: .53846rem;
+  margin-top: 1.3rem;
+  margin-bottom: .5rem;
 }
 
 nav ul {
