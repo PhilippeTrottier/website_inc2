@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>vim | ptrottier.com</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>ptrottier.com</h1>
+  </header>
+
+  <nav><ul>
+    <li><a href="index.html">home</a></li>
+    <li><a href="vim.html">vim</a></li>
+    <li><a href="lorem.html">lorem</a></li>
+  </ul></nav>
+
+  <main>
+    <h2>vim</h2>
+
+    <pre>set nocompatible
+
+" Make backspace work normally
+set backspace=2
+
+" Tab auto completion
+set wildmode=longest,list
+set wildmenu
+
+" History
+set history=7000
+
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+
+" Show current position
+set ruler
+
+" Search config
+set ignorecase
+set hlsearch
+set incsearch
+
+" Show matching parens
+set showmatch
+
+" UTF-8
+set encoding=utf8
+
+" Tabs
+set smarttab
+set shiftwidth=2
+set tabstop=2
+set expandtab
+
+" Line break
+set nowrap
+
+" Auto indent
+set ai
+set si
+
+" Always show status line
+set laststatus=2</pre>
+    <h2>gvimrc</h2>
+    <pre>set guifont=Source_Code_Pro:h14
+colorscheme desert
+:set guioptions-=m "remove menu bar
+:set guioptions-=T "remove toolbar
+:set guioptions-=r "remove scrollbar</pre>
+    <h2>Line length</h2>
+    <pre>123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-</pre>
+    <p>abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz</p>
+    <p>abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij abc de fghij </p>
+  </main>
+
+</body>
+
+</html>
+
