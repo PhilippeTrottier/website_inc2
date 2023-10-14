@@ -130,7 +130,8 @@ a:visited {
 }
 
 pre {
-  font-size: .6rem;
+  font-size: .63rem;
+  line-height: 1.2;
   background-color: #FFFAFA;
   border: solid 1px #CCCACA;
   padding: .2rem;
