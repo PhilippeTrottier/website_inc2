@@ -1,0 +1,157 @@
+/*
+@font-face {
+  font-family: 'CooperHewitt';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/CooperHewitt-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CooperHewitt';
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/CooperHewitt-BookItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CooperHewitt';
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/CooperHewitt-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CooperHewitt';
+  font-style: italic;
+  font-weight: bold;
+  src: url('fonts/CooperHewitt-BoldItalic.woff') format('woff');
+}
+*/
+@font-face {
+  font-family: 'Charter';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/charter_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Charter';
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/charter_italic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Charter';
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/charter_bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Charter';
+  font-style: italic;
+  font-weight: bold;
+  src: url('fonts/charter_bold_italic-webfont.woff') format('woff');
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: .7em;
+}
+
+@media only screen and (max-width: 480px) {
+body {
+  font-size: 1.9em;
+}
+}
+
+body {
+  font-size: 1.25em;
+  max-width: 33em;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-family: 'Charter', 'Georgia', 'Times', serif;
+  line-height: 1.35;
+  text-rendering: optimizeLegibility;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: .5em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-top: 1.5em;
+  margin-bottom: .53846em;
+  font-weight: normal;
+}
+
+h3 {
+    font-size: .9em;
+    font-weight: normal;
+    color: #666;
+    margin-top: 2em;
+    margin-bottom: .875em;
+}
+
+footer p {
+  color: #777;
+  font-size: .8em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: #07A;
+}
+
+a:visited {
+  color: #83B; 
+}
+
+pre {
+  font-size: .8em;
+  background-color: #FFFAFA;
+  border: solid 1px #CCCACA;
+  padding: .5em;
+}
+
+.goaltable th {
+    font-weight: normal;
+    font-size: .9em;
+    color: #850;
+    padding-right: 1em;
+    text-align: left;
+}
+
+.goaltable td {
+    padding-right: 1em;
+}
+
+.goaltable {
+    white-space: nowrap;
+}
+
+.goaltable input {
+    font: inherit;
+    border: 0;
+    padding: 0;
+}
