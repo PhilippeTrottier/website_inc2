@@ -39,6 +39,11 @@ html { font-size: 2.4vw; }
 p {
   margin-top: 0;
   margin-bottom: .7em;
+
+}
+
+/* unused */
+.justified {
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
