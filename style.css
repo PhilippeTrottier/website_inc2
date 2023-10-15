@@ -92,5 +92,5 @@ pre {
   border: solid 1px #CCCACA;
   padding: .2rem;
   overflow: scroll;
-  white-space: nowrap;
+  white-space: pre;
 }
