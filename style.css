@@ -54,7 +54,9 @@ body {
   font-family: 'Charter', 'Georgia', 'Times', serif;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
-  margin: 4px auto;
+  margin: 0 auto;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 h1, h2, h3 {
