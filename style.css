@@ -86,12 +86,16 @@ a:visited {
   color: #83B; 
 }
 
-pre {
-  font-size: .63rem;
-  line-height: 1.2;
+pre .codebox {
   background-color: #FFFAFA;
   border: solid 1px #CCCACA;
   padding: .2rem;
   overflow: scroll;
   white-space: pre;
 }
+
+pre {
+  font-size: .63rem;
+  line-height: 1.2;
+}
+
