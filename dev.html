@@ -23,6 +23,11 @@
   </ul></nav>
 
   <main>
+    <form method="POST" enctype="multipart/form-data" action="https://testphilapp.azurewebsites.net/api/EmailFormFunc">
+      <label for="content">Content:</label><br>
+      <input type="text" id="content" name="content"><br>
+      <input type="submit">
+    </form>
     <h2>Ideas</h2>
     <p>
       Basic analytics through an image. Served by a Go or C# https backend. Filename = hex(time in millis - 1697272905950) + page name.
