@@ -1,4 +1,4 @@
 {
-    "nonce": 1006,
-    "command": "cancel-reboot"
+    "nonce": 1007,
+    "command": "reboot"
 }
